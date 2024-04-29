@@ -1,0 +1,18 @@
+Questions= {
+    'Who developed the Python language?':'Guido van Rossum',
+    'What do we use to define a block of code in Python language?':'Indentation',
+    'What is the method inside the class in python language?':'Function',
+    'Which of the following is not a keyword in Python language?':'val',
+}
+score=0
+
+for i in Questions:
+  print(i)
+  answer=input('Enter your answer')
+  if(answer==Questions[i]):
+    score+=1
+  else:
+    print('wrong answer')
+
+print('your score is',score)
+
